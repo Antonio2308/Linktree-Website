@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('Images/blue-mountain-landscape-during-nighttime-lejp0wvsxdzhm78t.jpg');
+    background-size: cover;
+    color: white;
+    padding-bottom: 100px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.profile-picture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-top: 10%;
+    height: auto;
+    max-width: 200px;
+
+    border-radius: 50%;
+
+    box-shadow: 10px 7px 112px 43px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 7px 112px 43px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 7px 112px 43px rgba(0, 0, 0, 0.75);
+}
+
+
+.profile-name {
+    text-align: center;
+    padding: 30px;
+    padding-bottom: 0px;
+}
+
+.description {
+    text-align: center;
+    padding-bottom: 30px;
+
+}
+
+
+
+.link {
+    text-align: center;
+    display: block;
+    margin-top: 30px;
+    border: 1px solid #000988;
+    border-width: 2px;
+    width: 290px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 40px;
+    font-size: 25px;
+
+
+
+}
+
+button {
+    background-color: yellow;
+    box-sizing: border-box;
+    box-shadow: 7px 13px 39px 1px rgba(0, 0, 0, 0.75);
+
+
+}
+
+.link a {
+    text-decoration: none;
+    color: black;
+}
+
+button {
+    text-decoration: none;
+
+
+}
+
+button:hover {
+    transition: .2s;
+    background: white;
+}
+
+
+.snapcode {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-top: 5%;
+    height: auto;
+    max-width: 200px;
+
+    border-radius: 18%;
+
+
+    box-shadow: 10px 7px 112px 43px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 7px 112px 43px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 7px 112px 43px rgba(0, 0, 0, 0.75);
+}
