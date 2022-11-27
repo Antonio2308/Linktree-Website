@@ -11,6 +11,31 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+   
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background-image: url('Images/blue-mountain-landscape-during-nighttime-lejp0wvsxdzhm78t.jpg');
+   
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #f8f012;
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #878304;
+  }
+
+
 .profile-picture {
     display: block;
     margin-left: auto;
